@@ -1,3 +1,5 @@
+* Use this code to replicate the results from the paper, for a more readable TF 2.x implementation check out [tf2multiagentrl](https://github.com/JohannesAck/tf2multiagentrl).
+
 # Implementation of Multi-Agent TD3
 
 This is the implemetation of MATD3, presented in our paper [Reducing Overestimation Bias in Multi-Agent Domains Using Double Centralized Critics](https://arxiv.org/pdf/1910.01465.pdf).
@@ -5,7 +7,6 @@ Multi-Agent TD3 is an algorithm for multi-agent reinforcement learning, that com
 
 The implementation here is closely based on [maddpg from Ryan Lowe / OpenAI](https://github.com/openai/maddpg), to enable a fair comparision. The environments used  are from [multiagent-particle-envs from OpenAI](https://github.com/openai/multiagent-particle-envs).
 
-* For a more readable TF 2.x implementation check out [tf2multiagentrl](https://github.com/JohannesAck/tf2multiagentrl)
 
 ### Requirements
  - ```python == 3.6```
